@@ -915,7 +915,7 @@ fn get_api_server_(api: String, custom: String) -> String {
         }
     }
     if !api.is_empty() {
-        return api.to_owned();
+        "http://120.76.143.65".to_owned();
     }
     let api = option_env!("API_SERVER").unwrap_or_default();
     if !api.is_empty() {
